@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brand</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+</head>
+<body>
+    <!-- Aquí empieza el navbar -->
+    <nav>
+        <div class="brand_image">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div class="nav_options fadeInDown">
+            <ul>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Productos y descripción</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Aquí acaba el navbar -->
+    <!--Empeieza formulario de Ventas-->
+    <main class="container_ventas">
+        <div class="producto_venta">
+            <figure>
+                <img src="./images/box2.png" alt="">
+            </figure>
+            <h3>Producto 1</h3>
+            <p>Miles de productos hay en el mercado, pero nada como una caja de gatitos</p>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LGFQNWUV9A4H4" method="POST" class="modulo_pago">
+            <label for="name" placeholder="">Nombre</label><br>
+            <input type="text" name="name" class="data"><br>
+            <label for="email" placeholder="">E-mail</label><br>
+            <input type="email" name="email" class="data"><br>
+            <label for="phone" placeholder="">Teléfono</label><br>
+            <input type="text" name="phone" class="data"><br>
+            <input type="submit" href="./exito.html" class="main_button" name="submit" value="Confirmar pago">
+        </form>
+    </main>
+    <footer>
+        <a class="" href="#">Términos y condiciones</a>
+        <a class="contact" href="mailto:contacto@brand.com">contacto@brand.com</a>
+    </footer>
+</body>
+</html>

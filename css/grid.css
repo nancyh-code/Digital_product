@@ -1,0 +1,78 @@
+
+ .container {
+
+    max-width: 1024px;
+    min-height: calc(100vh -9rem);
+    margin: 0 auto;
+    padding: 32px;
+    display: grid; 
+    grid-template-rows: repeat(4, min-content);
+    justify-content: space-around;
+    gap: 32px;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    text-align: left;
+    margin: 0;
+}
+
+.product-description {
+    display: flex;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+}
+
+.product-description .reverse {
+    grid-template-columns: 65% 35%;
+}
+
+.product-description img {
+    width: 75%;
+}
+
+.product-description .description {
+    padding: 0 5%;
+} 
+
+
+/* 
+.row {
+    display: flex;
+}
+.col-1{
+    width: 8.333333333333333%;
+}
+.col-2{
+    width: 16.6666666666666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333333333%;
+}
+.col-5{
+    width: 41.6666666667%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333333333%;
+}
+.col-8{
+    width: 66.6666666667%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333333333%;
+}
+.col-11{
+    width: 91.6666666667;
+}
+.col-12{
+    width: 100%;
+} */

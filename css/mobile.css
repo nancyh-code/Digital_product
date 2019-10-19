@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+    .products { 
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .main_section {
+        padding: 4%;
+    }
+    .beneficios, .mention {
+        display: inherit;
+    }
+
+    .mention_testimonial {
+        width: auto;
+        height: auto;
+    }
+
+/* =============SECCIÓN DE PRODUCTOS============*/
+
+    .product_description {
+        display: inline-block;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .product_description .reverse {
+        grid-template-columns: 1fr;
+    }
+    .product_description .description {
+        padding: 0 2%;
+    }
+    
+/*====================SECCIÓN VENTAS=====================*/
+
+    .container_ventas {
+        display: inline-block;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .modulo_pago, .producto_venta {
+        margin: 20px 10px;
+    }
+}
